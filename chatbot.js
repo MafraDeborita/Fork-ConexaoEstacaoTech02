@@ -136,7 +136,7 @@ client.on('message', async msg => {
         await delay(3000);
         await client.sendMessage(msg.from, `🌟 Eventos e Projetos Futuros das Estações Tech em São Luís! 🌟
             \nEstamos entusiasmados com os próximos eventos e projetos em São Luís! Veja o que vem por aí:
-            \n### *Eventos:*
+            \n Eventos:
             \n1. *Inauguração da Estação Tech no Centro Histórico*
             \n- 📅 *Data:* 15 de Outubro de 2024
             \n- 📍 *Local:* Rua do Egito, 123 - Centro Histórico, São Luís, MA
