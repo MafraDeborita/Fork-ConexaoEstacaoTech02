@@ -43,7 +43,7 @@ client.on('message', async msg => {
         await chat.sendStateTyping(); // Simulando Digitação
         await delay(3000);
         await client.sendMessage(msg.from, `🌟 Quer saber mais sobre as Estações Tech? \n🌟As Estações Tech são um projeto incrível que está transformando a realidade de várias comunidades no Maranhão! 🚀💻 Com acesso à tecnologia e oportunidades para desenvolver novas habilidades, essa iniciativa é um passo importante para construir um futuro mais justo e cheio de oportunidades para todos. \n 🙌✨ Quer saber mais e se cadastrar? 
-            \n🤔Acesse o site das Estações Tech para obter todas as informações detalhadas, como locais de funcionamento, programação de atividades e como participar.\n👉 Link para cadastro: site.com 
+            \n🤔Acesse o site das Estações Tech para obter todas as informações detalhadas, como locais de funcionamento, programação de atividades e como participar.
 `);
 
         await delay(3000); //delay de 3 segundos
